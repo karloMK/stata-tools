@@ -1,0 +1,3 @@
+v 1.0
+d stata2mplus : Export Stata datasets to Mplus input format
+p stata2mplus stata2mplus.ado stata2mplus.hlp
