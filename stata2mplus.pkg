@@ -1,0 +1,10 @@
+d Stata2mplus. Convert Stata files to Mplus files
+d Statistical Consulting Group
+d Institute for Digital Research and Education, UCLA
+d idrestat@ucla.edu
+d
+d Stata ado and hlp files in the package
+d distribution-date: 20150326
+f stata2mplus.ado
+f stata2mplus.hlp
+e

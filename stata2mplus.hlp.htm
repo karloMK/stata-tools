@@ -1,0 +1,53 @@
+<pre>
+Help file for the command stata2mplus
+-------------------------------------
+<p>
+Syntax
+------
+<p>
+stata2mplus [varlist] using &lt;name for mplus file&gt; ,  [ replace missing(#) 
+  use(varlist) ]
+<p>
+<p>
+Options
+-------
+<p>
+varlist - Variables to be converted to Mplus.  Default all.
+<p>
+using &lt;name for mplus file&gt; - This is the name for the .inp and .dat files 
+to be created based on the Stata file currently in memory.
+<p>
+replace - Use to replace the existing file
+<p>
+missing -  Specify number for missing values, default  -999999999
+<p>
+use     - Specify variables for "usevarables", default all variables
+           from varlist.
+<p>
+Description
+-----------
+<p>
+This program reads the current data file in memory and creates a raw data file and
+an Mplus program (an inp file) that can read the raw data file into
+Mplus. String variables are converted to numeric values.
+The Title section contains a list of the variables, variable labels, and 
+value labels.  
+<p>
+Examples
+--------
+<p>
+sysuse auto, clear
+stata2mplus using auto 
+<p>
+This reads the data file "auto.dta" and creates the raw data file 
+"auto.dat" and input file "auto.inp" which is an Mplus input file that 
+can be used to read "auto.dat".
+<p>
+Author(s)
+---------
+<p>
+     Statistical Consulting Group
+     Institute for Digital Research and Education, UCLA
+     idrestat@ucla.edu 
+<p>
+</pre>
