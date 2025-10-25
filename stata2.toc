@@ -1,0 +1,3 @@
+v 1.0
+d st0085_2 : Export Stata datasets to Mplus input format
+p st0085_2 _eststo.ado _eststo.hlp esttab.ado esttab.hlp estadd.ado estadd.hlp eststo.ado eststo.hlp estout.ado estout.hlp estpost.ado estpost.hlp
