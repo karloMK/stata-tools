@@ -1,0 +1,5 @@
+v 3
+d Revised asdoc package
+d Modified correlation significance stars:
+d *** p < .001, ** p < .01, * p < .05
+f asdoc.ado
